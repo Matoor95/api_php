@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header('Content-Type: application/json; charset=UTF-8');
 
-include_once 'connexion.php';
+require_once 'connexion.php';
 
 //code...
 try {
